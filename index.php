@@ -13,7 +13,7 @@
 
         // get diff days
         $dif_days = (strtotime(date("Y-m-d", $dif)) - strtotime("1970-01-01")) / 86400;
-        return "{$dif_days}days";
+        return "{$dif_days}";
         echo $dif;
     }
 
